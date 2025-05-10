@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-05-10T14:56:15.041099",
+  "model_features": [
+    "login_attempts_1h",
+    "ip_changes_24h",
+    "user_agent_mismatch",
+    "time_since_last_login",
+    "location_change",
+    "mouse_velocity",
+    "mouse_distance",
+    "keystroke_dwell",
+    "keystroke_flight"
+  ],
+  "data_features": [
+    "login_attempts_1h",
+    "ip_changes_24h",
+    "user_agent_mismatch",
+    "time_since_last_login",
+    "location_change",
+    "mouse_velocity",
+    "mouse_distance",
+    "keystroke_dwell",
+    "keystroke_flight"
+  ],
+  "feature_match": true,
+  "classification_report": {
+    "0.0": {
+      "precision": 0.9855451974442233,
+      "recall": 0.97,
+      "f1-score": 0.9777108120746091,
+      "support": 9700.0
+    },
+    "1.0": {
+      "precision": 0.3576158940397351,
+      "recall": 0.54,
+      "f1-score": 0.4302788844621514,
+      "support": 300.0
+    },
+    "accuracy": 0.9571,
+    "macro avg": {
+      "precision": 0.6715805457419792,
+      "recall": 0.755,
+      "f1-score": 0.7039948482683802,
+      "support": 10000.0
+    },
+    "weighted avg": {
+      "precision": 0.9667073183420888,
+      "recall": 0.9571,
+      "f1-score": 0.9612878542462353,
+      "support": 10000.0
+    }
+  },
+  "dataset_stats": {
+    "total_records": 10000,
+    "fraud_count": 300,
+    "fraud_percentage": 3.0
+  }
+}
